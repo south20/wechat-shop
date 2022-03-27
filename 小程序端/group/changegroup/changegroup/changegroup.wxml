@@ -1,0 +1,1 @@
+<view class="data-v-053674dc"><change-group-top bind:getData="__e" bind:search="__e" vue-id="1dacb8f6-1" data-event-opts="{{[['^getData',[['getData']]],['^search',[['search']]]]}}" class="data-v-053674dc" bind:__l="__l"></change-group-top><change-group-list vue-id="1dacb8f6-2" data="{{data}}" class="data-v-053674dc" bind:__l="__l"></change-group-list></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "user-content": "/superuser/userinfo/userContent/userContent",
+    "user-card": "/superuser/userinfo/userCard/userCard"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/coupons/coupons"],{"1ec0":function(t,e,n){"use strict";var c=n("38c1"),a=n.n(c);a.a},"32b0":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={data:function(){return{color:{0:"#77adfd, #58d3fd",1:"#a4bbfb, #dc92f7",2:"#fcb187, #f7dd9f"}}},components:{},props:{data:{type:Object},bg:{type:String}},watch:{data:{handler:function(t){},immediate:!0,deep:!0}},methods:{getcoupons:function(e){var n=this;wx.request({url:t.getStorageSync("url")+"ShopRedEnvelope",method:"post",data:{type_id:e.currentTarget.dataset.id},header:{"Access-Token":t.getStorageSync("jwt"),"content-type":"application/x-www-form-urlencoded"},success:function(t){200==t.data.status?wx.showToast({title:"领取成功",icon:"success",duration:2e3}):1001==t.data.status?n.$emit("nojwt",{detail:""}):wx.showToast({title:"无效的优惠券码",icon:"none"})}})}}};e.default=n}).call(this,n("543d")["default"])},"38c1":function(t,e,n){},"6c00":function(t,e,n){"use strict";var c,a=function(){var t=this,e=t.$createElement;t._self._c},o=[];n.d(e,"b",(function(){return a})),n.d(e,"c",(function(){return o})),n.d(e,"a",(function(){return c}))},7579:function(t,e,n){"use strict";n.r(e);var c=n("32b0"),a=n.n(c);for(var o in c)"default"!==o&&function(t){n.d(e,t,(function(){return c[t]}))}(o);e["default"]=a.a},fb5e2:function(t,e,n){"use strict";n.r(e);var c=n("6c00"),a=n("7579");for(var o in a)"default"!==o&&function(t){n.d(e,t,(function(){return a[t]}))}(o);n("1ec0");var u,r=n("f0c5"),d=Object(r["a"])(a["default"],c["b"],c["c"],!1,null,"02d9d6f4",null,!1,c["a"],u);e["default"]=d.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/coupons/coupons-create-component',
+    {
+        'pages/index/coupons/coupons-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("fb5e2"))
+        })
+    },
+    [['pages/index/coupons/coupons-create-component']]
+]);

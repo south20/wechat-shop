@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "logistics-information-header": "/pages/logisticsInformation/logisticsInformationHeader/logisticsInformationHeader",
+    "logistics-information-list": "/pages/logisticsInformation/logisticsInformationList/logisticsInformationList",
+    "diyfooter": "/pages/footer/footer"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "change-group-top": "/group/changegroup/changeGroupTop/changeGroupTop",
+    "change-group-list": "/group/changegroup/changeGroupList/changeGroupList"
+  }
+}

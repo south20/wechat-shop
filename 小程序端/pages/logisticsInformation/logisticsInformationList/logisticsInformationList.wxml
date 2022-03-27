@@ -1,0 +1,1 @@
+<view class="content data-v-3993430e"><block wx:for="{{List}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block class="data-v-3993430e"><view class="row data-v-3993430e"><view class="row-context data-v-3993430e">{{item.context||item.AcceptStation}}</view><view class="row-time data-v-3993430e">{{item.time||item.AcceptTime}}</view></view></block></block></view>

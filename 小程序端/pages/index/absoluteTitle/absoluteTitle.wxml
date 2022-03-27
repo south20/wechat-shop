@@ -1,0 +1,1 @@
+<view style="{{('color: '+data.details.color+'; position:absolute; top: '+data.details.top+'%; font-size: '+data.details.fontSize+'; text-align: '+data.details.textAlign+'; width: 100vw; font-weight: '+data.details.fontWeight+';')}}" class="data-v-0db2b794">{{''+data.details.text+''}}</view>

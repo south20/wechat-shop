@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/navigation/navigation"],{"0368":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a={data:function(){return{number:{1:2,2:3,3:4,4:5},menu:[],swiperHeight:!1}},components:{},props:{data:{type:Object}},watch:{data:{handler:function(t){var e=this;console.error(t);var n=[];t.details.imgs.map((function(a,i){console.log(e.number[t.details.style],i%e.number[t.details.style]),i%(2*e.number[t.details.style])==0?(console.log(n,typeof n),n.push([a])):n[n.length-1].push(a)})),this.setData({menu:n,swiperHeight:n[0].length>this.number[t.details.style]})},immediate:!0,deep:!0}},methods:{go:function(t){console.log(t.currentTarget.dataset.link),wx.navigateTo({url:t.currentTarget.dataset.link})},calculateheight:function(t){this.setData({swiperHeight:this.menu[t.detail.current].length>this.number[this.data.details.style]})}}};e.default=a},"148f":function(t,e,n){"use strict";var a,i=function(){var t=this,e=t.$createElement;t._self._c},r=[];n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return r})),n.d(e,"a",(function(){return a}))},"465e":function(t,e,n){"use strict";n.r(e);var a=n("0368"),i=n.n(a);for(var r in a)"default"!==r&&function(t){n.d(e,t,(function(){return a[t]}))}(r);e["default"]=i.a},5865:function(t,e,n){},9094:function(t,e,n){"use strict";n.r(e);var a=n("148f"),i=n("465e");for(var r in i)"default"!==r&&function(t){n.d(e,t,(function(){return i[t]}))}(r);n("d65f");var u,s=n("f0c5"),o=Object(s["a"])(i["default"],a["b"],a["c"],!1,null,"7b7a2466",null,!1,a["a"],u);e["default"]=o.exports},d65f:function(t,e,n){"use strict";var a=n("5865"),i=n.n(a);i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/navigation/navigation-create-component',
+    {
+        'pages/index/navigation/navigation-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("9094"))
+        })
+    },
+    [['pages/index/navigation/navigation-create-component']]
+]);

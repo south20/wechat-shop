@@ -1,0 +1,1 @@
+<view class="header data-v-5c3fd67d"><view class="row data-v-5c3fd67d"><view class="row-label data-v-5c3fd67d">快递单号:</view><view class="row-data data-v-5c3fd67d">{{orderNum}}</view></view><view class="row data-v-5c3fd67d"><view class="row-label data-v-5c3fd67d">承运快递:</view><view class="row-data data-v-5c3fd67d">{{name}}</view></view></view>

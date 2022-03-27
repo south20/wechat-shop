@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "promoter-content": "/promoter/promotercenter/promoterContent/promoterContent",
+    "promoter-card": "/promoter/promotercenter/promoterCard/promoterCard",
+    "promoter-center": "/promoter/promoterfooter/promoterfooter"
+  }
+}

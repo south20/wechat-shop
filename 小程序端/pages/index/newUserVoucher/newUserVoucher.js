@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/newUserVoucher/newUserVoucher"],{"0395":function(t,e,n){"use strict";var a,o=function(){var t=this,e=t.$createElement;t._self._c},u=[];n.d(e,"b",(function(){return o})),n.d(e,"c",(function(){return u})),n.d(e,"a",(function(){return a}))},1091:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={data:function(){return{data:[]}},components:{},props:{flag:{type:Boolean},isLogin:{type:Boolean}},watch:{isLogin:{handler:function(t){t&&this.getData()},immediate:!0}},beforeMount:function(){},methods:{getData:function(){var e=this;wx.request({url:"".concat(t.getStorageSync("url"),"ShopRedEnvelope"),data:{type:2,key:t.getStorageSync("shopkey")},success:function(t){console.log(t.data),200==t.data.status&&e.setData({data:t.data.data})}})},getAll:function(t){var e=this;this.http({url:"ShopVoucherReceive",method:"post"}).then((function(t){wx.showToast({title:"领取成功",icon:"none"}),e.closeLayer()}))},closeLayer:function(){this.$emit("getVoucherAll")}}};e.default=n}).call(this,n("543d")["default"])},"631a":function(t,e,n){"use strict";n.r(e);var a=n("0395"),o=n("9f15");for(var u in o)"default"!==u&&function(t){n.d(e,t,(function(){return o[t]}))}(u);n("89e2");var c,r=n("f0c5"),i=Object(r["a"])(o["default"],a["b"],a["c"],!1,null,"98f0f918",null,!1,a["a"],c);e["default"]=i.exports},"699c":function(t,e,n){},"89e2":function(t,e,n){"use strict";var a=n("699c"),o=n.n(a);o.a},"9f15":function(t,e,n){"use strict";n.r(e);var a=n("1091"),o=n.n(a);for(var u in a)"default"!==u&&function(t){n.d(e,t,(function(){return a[t]}))}(u);e["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/newUserVoucher/newUserVoucher-create-component',
+    {
+        'pages/index/newUserVoucher/newUserVoucher-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("631a"))
+        })
+    },
+    [['pages/index/newUserVoucher/newUserVoucher-create-component']]
+]);

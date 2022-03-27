@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "its-group-list": "/group/itsgroup/ItsGroupList/ItsGroupList",
+    "its-group-card": "/group/itsgroup/ItsGroupCard/ItsGroupCard"
+  }
+}

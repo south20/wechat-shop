@@ -1,0 +1,1 @@
+<block wx:if="{{show}}"><view data-event-opts="{{[['tap',[['changeshow',['$event']]]]]}}" class="mask data-v-6c549f2f" catchtap="__e"><view data-event-opts="{{[['tap',[['',['$event']]]]]}}" catchtap="__e" class="data-v-6c549f2f"><slot name="layer-content"></slot></view></view></block>

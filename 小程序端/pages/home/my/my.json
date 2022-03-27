@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "layer": "/pages/utill/layer/layer",
+    "diyfooter": "/pages/footer/footer"
+  }
+}

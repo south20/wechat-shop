@@ -1,0 +1,1 @@
+<block wx:if="{{name}}"><view class="{{['data-v-4326cf82','buyprompt '+animation]}}"><image class="icon data-v-4326cf82" lazy-load="{{true}}" src="{{avatar}}"></image><view class="content data-v-4326cf82">{{"最新订单来自"+name}}</view></view></block>

@@ -1,0 +1,1 @@
+<view class="data-v-463d5701"><promoter-content vue-id="0f1f5ba0-1" class="data-v-463d5701" bind:__l="__l"></promoter-content><promoter-card vue-id="0f1f5ba0-2" class="data-v-463d5701" bind:__l="__l"></promoter-card><promoter-center vue-id="0f1f5ba0-3" name="{{title}}" class="data-v-463d5701" bind:__l="__l"></promoter-center></view>

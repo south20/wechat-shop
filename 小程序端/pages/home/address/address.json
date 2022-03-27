@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "login": "/pages/utill/noLogin/noLogin"
+  }
+}

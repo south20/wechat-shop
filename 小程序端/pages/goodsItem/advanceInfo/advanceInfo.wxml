@@ -1,0 +1,1 @@
+<block wx:if="{{data.is_advance_sale==1}}"><view class="advanceInfo data-v-3fcd0870">{{startTime+"-"+endTime+"支付尾款"}}</view></block>

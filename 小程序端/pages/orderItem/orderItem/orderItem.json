@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "order-item-status": "/pages/orderItem/orderItemStatus/orderItemStatus",
+    "order-item-address": "/pages/orderItem/orderItemAddress/orderItemAddress",
+    "order-item-footer": "/pages/orderItem/orderItemFooter/orderItemFooter",
+    "order-item-goods": "/pages/orderItem/orderItemGoods/orderItemGoods",
+    "order-item-order": "/pages/orderItem/orderItemOrder/orderItemOrder",
+    "diyfooter": "/pages/footer/footer"
+  }
+}

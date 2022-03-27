@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "order-header": "/pages/order/orderHeader/orderHeader",
+    "order-item": "/pages/order/orderItem/orderItem",
+    "menu": "/pages/footer/footer",
+    "diyfooter": "/pages/footer/footer",
+    "login": "/pages/utill/noLogin/noLogin"
+  }
+}

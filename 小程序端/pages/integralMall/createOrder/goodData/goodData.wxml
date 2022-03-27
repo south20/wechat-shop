@@ -1,0 +1,1 @@
+<view class="good data-v-4be0226f"><image class="good-img data-v-4be0226f" lazy-load="{{true}}" src="{{data.pic_urls[0]}}"></image><view class="good-content data-v-4be0226f"><view class="good-name data-v-4be0226f">{{data.name}}</view><view class="good-price data-v-4be0226f">{{data.score}}</view></view></view>

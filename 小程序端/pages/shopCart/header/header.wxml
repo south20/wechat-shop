@@ -1,0 +1,1 @@
+<view style="overflow:hidden;" class="data-v-6c7a6db6"><view class="header data-v-6c7a6db6"><block wx:for="{{reduction_info.reduction_achieve}}" wx:for-item="item" wx:for-index="index"><text class="data-v-6c7a6db6">{{"满"+item+"减"+reduction_info.reduction_decrease[index]+"元"}}</text></block></view></view>

@@ -1,0 +1,1 @@
+<view class="rules data-v-f1ebd9b8"><image class="banner data-v-f1ebd9b8" lazy-load="{{true}}" src="https://imgs.juanpao.com/ui/guize.jpg" mode="widthFix"></image><view class="timeinterval data-v-f1ebd9b8">{{s_time+" 至 "+e_time}}</view></view>

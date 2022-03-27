@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "diyfooter": "/pages/payOk/footer/footer",
+    "recommend-goods": "/pages/utill/recommendGoods/recommendGoods"
+  }
+}

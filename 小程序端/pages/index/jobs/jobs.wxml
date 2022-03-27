@@ -1,0 +1,1 @@
+<view class="jobs data-v-6af6d767"><block wx:for="{{data.details.imgs}}" wx:for-item="itemImg" wx:for-index="itemIndex" wx:key="itemIndex"><block class="data-v-6af6d767"><view class="item data-v-6af6d767"><view class="data-v-6af6d767">{{itemImg.text}}</view></view></block></block></view>

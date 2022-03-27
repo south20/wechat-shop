@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "group-sales-tabbar": "/group/groupsales/GroupSalesTabbar/GroupSalesTabbar",
+    "group-sales-data": "/group/groupsales/GroupSalesData/GroupSalesData"
+  }
+}

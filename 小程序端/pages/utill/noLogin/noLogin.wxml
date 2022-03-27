@@ -1,0 +1,1 @@
+<view class="data-v-4f6732d8"><block wx:if="{{noLogin}}"><block class="data-v-4f6732d8"><view class="noLogin-view data-v-4f6732d8"><navigator class="noLogin data-v-4f6732d8" style="{{('background: '+background)}}" url="/pages/login2/login2">立即登录</navigator></view></block></block></view>

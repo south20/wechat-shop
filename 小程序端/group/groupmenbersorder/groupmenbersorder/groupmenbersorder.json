@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "group-menbers-order-header": "/group/groupmenbersorder/GroupMenbersOrderHeader/GroupMenbersOrderHeader",
+    "group-order-list": "/group/groupmenbersorder/GroupOrderList/GroupOrderList"
+  }
+}

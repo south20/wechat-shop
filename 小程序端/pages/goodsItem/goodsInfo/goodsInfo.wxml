@@ -1,0 +1,1 @@
+<block wx:if="{{startTime!=''&&sendTime!=''}}"><view class="seckilTime data-v-6e4453e4"><view class="startTime data-v-6e4453e4">{{"销售时间: "+startTime}}</view><view class="sendTime data-v-6e4453e4">{{"提货时间: "+sendTime}}</view></view></block>

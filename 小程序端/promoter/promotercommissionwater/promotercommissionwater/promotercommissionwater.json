@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "header": "/promoter/promotercommissionwater/Header/Header",
+    "list": "/promoter/promotercommissionwater/List/List"
+  }
+}

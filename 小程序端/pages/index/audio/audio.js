@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/audio/audio"],{"08dd":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=wx.createInnerAudioContext();function r(t){return parseInt(t).toString().padStart(2,"0")}var i={data:function(){return{status:!1,time:"00:00",interval:""}},components:{},props:{data:{type:Object},leave:{type:Boolean}},watch:{data:{handler:function(t){var e=this;t.details&&(a.src=t.details.imgs[0].link,a.onEnded((function(){e.end()})))},immediate:!0,deep:!0},leave:{handler:function(t){t&&clearInterval(inter)},immediate:!0}},beforeMount:function(){},methods:{todo:function(){var t=this;a.play();var e=setInterval((function(){t.setData({time:"".concat(r(a.currentTime/60),":").concat(r(a.currentTime%60))})}),1e3);this.setData({status:!0,interval:e})},stop:function(){this.setData({status:!1}),a.pause(),clearInterval(this.interval)},end:function(){this.setData({status:!1}),a.stop(),clearInterval(this.interval)}}};e.default=i},"28fd":function(t,e,n){"use strict";n.r(e);var a=n("08dd"),r=n.n(a);for(var i in a)"default"!==i&&function(t){n.d(e,t,(function(){return a[t]}))}(i);e["default"]=r.a},"9a76":function(t,e,n){},c3f4:function(t,e,n){"use strict";var a=n("9a76"),r=n.n(a);r.a},cd8b:function(t,e,n){"use strict";n.r(e);var a=n("ee4b"),r=n("28fd");for(var i in r)"default"!==i&&function(t){n.d(e,t,(function(){return r[t]}))}(i);n("c3f4");var u,c=n("f0c5"),o=Object(c["a"])(r["default"],a["b"],a["c"],!1,null,"73763a80",null,!1,a["a"],u);e["default"]=o.exports},ee4b:function(t,e,n){"use strict";var a,r=function(){var t=this,e=t.$createElement;t._self._c},i=[];n.d(e,"b",(function(){return r})),n.d(e,"c",(function(){return i})),n.d(e,"a",(function(){return a}))}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/audio/audio-create-component',
+    {
+        'pages/index/audio/audio-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("cd8b"))
+        })
+    },
+    [['pages/index/audio/audio-create-component']]
+]);

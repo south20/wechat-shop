@@ -1,0 +1,1 @@
+<block wx:if="{{showFlag}}"><view class="addIcon data-v-015aebbe" style="{{('top: '+top+'px')}}"><image lazy-load="{{true}}" mode="widthFix" src="/static/images/index/click.png" class="data-v-015aebbe"></image></view></block>

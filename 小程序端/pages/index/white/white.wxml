@@ -1,0 +1,1 @@
+<view class="white data-v-701ff373" style="{{('background-color:'+data.details.color2+';height:'+data.details.boxHeight+'px;')}}"></view>

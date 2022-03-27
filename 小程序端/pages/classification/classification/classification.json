@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "shop-cart": "/pages/classification/shopcart/shopcart",
+    "diyfooter": "/pages/footer/footer",
+    "shop-cart-layer": "/pages/utill/addShopCartLayer/addShopCartLayer"
+  }
+}

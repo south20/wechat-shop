@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cart-data": "/pages/shopCart/cartData/cartData"
+  }
+}

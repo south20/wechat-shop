@@ -1,0 +1,1 @@
+<view class="view-article data-v-1e4d573d" style="{{('background-color:'+data.details.color2)}}"><rich-text nodes="{{data.details.text}}" class="data-v-1e4d573d"></rich-text></view>

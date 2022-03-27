@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "seckill-header": "/pages/seckill/seckillHeader/seckillHeader",
+    "seckill-scroll": "/pages/seckill/seckillScroll/seckillScroll",
+    "seckill-goods": "/pages/seckill/seckillGoods/seckillGoods"
+  }
+}

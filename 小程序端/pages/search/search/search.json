@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "usingComponents": {
+    "search-data": "/pages/search/searchData/searchData",
+    "diyfooter": "/pages/footer/footer"
+  }
+}

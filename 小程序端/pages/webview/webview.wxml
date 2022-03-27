@@ -1,0 +1,1 @@
+<view class="data-v-747eefa4"><web-view src="{{url}}" class="data-v-747eefa4"></web-view><view data-event-opts="{{[['show',[['show',['$event']]]]]}}" bindshow="__e" class="_footer data-v-747eefa4"></view></view>

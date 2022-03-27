@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "coupons": "/pages/createOrder/coupons/coupons"
+  }
+}

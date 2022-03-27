@@ -1,0 +1,1 @@
+<view class="Header data-v-02e6c066"><block wx:for="{{List}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block class="data-v-02e6c066"><view class="{{['data-v-02e6c066','Header-item '+(index==menuIndex?'select':'')]}}" data-id="{{item.id}}" data-event-opts="{{[['tap',[['change',['$event']]]]]}}" bindtap="__e">{{''+item.name+''}}</view></block></block></view>

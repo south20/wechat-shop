@@ -1,0 +1,1 @@
+<video class="video data-v-cb6f4a06" style="{{('height:'+data.details.boxHeight+'px')}}" src="{{data.details.imgs[0].link}}" poster="{{data.details.imgs[0].src}}" controls="{{true}}" enable-play-gesture="true"></video>

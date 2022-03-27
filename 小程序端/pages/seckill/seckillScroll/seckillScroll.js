@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/seckill/seckillScroll/seckillScroll"],{1593:function(t,n,e){"use strict";e.r(n);var a=e("b27a1"),i=e("9bfe");for(var o in i)"default"!==o&&function(t){e.d(n,t,(function(){return i[t]}))}(o);e("eafe");var c,u=e("f0c5"),r=Object(u["a"])(i["default"],a["b"],a["c"],!1,null,"97d615e4",null,!1,a["a"],c);n["default"]=r.exports},2829:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a={data:function(){return{secound:6,animation:!0,list:[]}},components:{},props:{data:{type:Array,default:function(){return[]}}},watch:{data:{handler:function(t){if(0!=t.length){var n=t;this.initAnimation(n)}},immediate:!0,deep:!0}},beforeMount:function(){},methods:{initAnimation:function(t){var n=this,e=t.slice(0,t.length),a=e.splice(0,4);this.setData({list:a}),setInterval((function(){var i=n.secound-1;-1==i?(0==e.length&&(e=t.slice(0,t.length)),a=e.splice(0,4),i=6,n.setData({animation:!0,list:a})):1==i&&n.setData({animation:!1}),n.setData({secound:i})}),1e3)},go:function(t){wx.navigateTo({url:"/pages/goodsItem/goodsItem/goodsItem?id=".concat(t.currentTarget.dataset.id)})}}};n.default=a},"9bfe":function(t,n,e){"use strict";e.r(n);var a=e("2829"),i=e.n(a);for(var o in a)"default"!==o&&function(t){e.d(n,t,(function(){return a[t]}))}(o);n["default"]=i.a},b27a1:function(t,n,e){"use strict";var a,i=function(){var t=this,n=t.$createElement;t._self._c},o=[];e.d(n,"b",(function(){return i})),e.d(n,"c",(function(){return o})),e.d(n,"a",(function(){return a}))},eafe:function(t,n,e){"use strict";var a=e("eb1a"),i=e.n(a);i.a},eb1a:function(t,n,e){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/seckill/seckillScroll/seckillScroll-create-component',
+    {
+        'pages/seckill/seckillScroll/seckillScroll-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("1593"))
+        })
+    },
+    [['pages/seckill/seckillScroll/seckillScroll-create-component']]
+]);

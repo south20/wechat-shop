@@ -1,0 +1,183 @@
+{
+  "pages": [
+    "pages/index/index/index",
+    "pages/goodsItem/goodsItem/goodsItem",
+    "pages/classification/classification/classification",
+    "pages/home/my/my",
+    "pages/home/address/address",
+    "pages/home/addAddress/addAddress",
+    "pages/createOrder/createOrder/createOrder",
+    "pages/shopCart/shopCart/shopCart",
+    "pages/goodsClassify/goodsClassify/goodsClassify",
+    "pages/order/order/order",
+    "pages/logisticsInformation/logisticsInformation/logisticsInformation",
+    "pages/comments/comments/comments",
+    "pages/applicationForDrawback/applicationForDrawback/applicationForDrawback",
+    "pages/returnOrder/returnOrder/returnOrder",
+    "pages/home/coupons/coupons/coupons",
+    "pages/orderItem/orderItem/orderItem",
+    "pages/home/couponRedemptionCenter/couponRedemptionCenter",
+    "pages/goodsItem/commentsDetail/commentsDetail",
+    "pages/clockIn/clockIn/clockIn",
+    "pages/search/search/search",
+    "pages/webview/webview",
+    "pages/payOk/payOk/payOk",
+    "pages/goodsItem/buypeopleDetail/buypeopleDetail/buypeopleDetail",
+    "pages/supplier/supplierbrochure/supplierbrochure",
+    "pages/supplier/supplierform/supplerform",
+    "pages/seckill/seckill/seckill",
+    "pages/closingTime/closingTime",
+    "pages/login2/login2",
+    "pages/share/share",
+    "pages/home/memberCard/memberCard/memberCard",
+    "pages/integralMall/index/index/index",
+    "pages/integralMall/goodsItem/goodsItem",
+    "pages/integralMall/createOrder/createOrder/createOrder",
+    "pages/integralMall/order/order",
+    "pages/integralMall/integralDetail/integralDetail",
+    "pages/integralMall/goodsClassify/goodsClassify/goodsClassify",
+    "pages/home/level/level",
+    "pages/home/topup/topup",
+    "pages/luckVoucher/luckVoucher",
+    "pages/spellGroup/willGroup/willGroup",
+    "pages/spellGroup/goGroup/goGroup",
+    "pages/spellGroup/okGroup/okGroup",
+    "pages/spellGroup/errGroup/errGroup",
+    "pages/spellGroup/groupOrderList/groupOrderList",
+    "pages/home/qualification/qualification",
+    "pages/home/qualificationDetail/qualificationDetail",
+    "pages/goodsItem/groupRules/groupRules",
+    "pages/home/balancePay/balancePay",
+    "pages/home/blancePayList/blancePayList",
+    "pages/live/live",
+    "pages/gopay/gopay",
+    "pages/home/help/help",
+    "pages/home/helpList/helpList",
+    "pages/home/helpListDetail/helpListDetail",
+    "pages/categories/categories"
+  ],
+  "subPackages": [
+    {
+      "root": "bargaining",
+      "pages": [
+        "pages/bargaining/Index/Index",
+        "pages/myBargaining/myBargaining",
+        "pages/goodItem/goodItem/goodItem",
+        "pages/buyDetail/buyDetail",
+        "pages/helpDetail/helpDetail",
+        "pages/rules/rules"
+      ]
+    },
+    {
+      "root": "group",
+      "pages": [
+        "creategroup/creategroup",
+        "groupcenter/groupcenter/groupcenter",
+        "groupsales/groupsales/groupsales",
+        "groupmenbersorder/groupmenbersorder/groupmenbersorder",
+        "promoteOrder/promoteOrder/promoteOrder",
+        "groupInformation/groupInformation",
+        "changegroup/changegroup/changegroup",
+        "grouporder/grouporder/grouporder",
+        "itsgroup/itsgroup/itsgrouop",
+        "withdrawal/withdrawal",
+        "groupcommissionwater/groupcommissionwater/groupcommissionwater",
+        "grouplevel/grouplevel",
+        "groupbrochure/groupbrochure"
+      ]
+    },
+    {
+      "root": "promoter",
+      "pages": [
+        "promotercenter/promotercenter/promotercenter",
+        "promoteOrder/promoteOrder/promoteOrder",
+        "promotercommissionwater/promotercommissionwater/promotercommissionwater",
+        "promoterlevel/promoterlevel",
+        "withdrawal/withdrawal",
+        "promoterUser/promoterUser"
+      ]
+    },
+    {
+      "root": "superuser",
+      "pages": [
+        "userinfo/userinfo/userinfo",
+        "superuserorder/superuserorder/superuserorder",
+        "userinfosales/userinfosales/userinfosales",
+        "Customer/Customer",
+        "team/team"
+      ]
+    },
+    {
+      "root": "supplier",
+      "pages": [
+        "list/list",
+        "index/index"
+      ]
+    },
+    {
+      "root": "assemble",
+      "pages": [
+        "list/list"
+      ]
+    },
+    {
+      "root": "newUser",
+      "pages": [
+        "list/list"
+      ]
+    },
+    {
+      "root": "solitaire",
+      "pages": [
+        "activity/activity",
+        "mysolitaireshare/mysolitaireshare",
+        "commentlist/commentlist"
+      ]
+    },
+    {
+      "root": "special",
+      "pages": [
+        "index/index",
+        "detail/detail"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "preloadRule": {
+    "pages/home/my/my": {
+      "network": "all",
+      "packages": [
+        "superuser",
+        "newUser",
+        "promoter"
+      ]
+    },
+    "pages/index/index/index": {
+      "network": "all",
+      "packages": [
+        "group"
+      ]
+    },
+    "pages/goodsItem/goodsItem/goodsItem": {
+      "network": "all",
+      "packages": [
+        "solitaire",
+        "assemble",
+        "supplier",
+        "bargaining"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "plugins": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap26.json"
+}

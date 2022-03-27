@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "banner": "/pages/integralMall/index/banner/banner",
+    "classify": "/pages/integralMall/index/classify/classify",
+    "goods": "/pages/integralMall/index/goods/goods"
+  }
+}

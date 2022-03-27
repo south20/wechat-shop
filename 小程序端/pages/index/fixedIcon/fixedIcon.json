@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "layer": "/pages/utill/layer/layer"
+  }
+}

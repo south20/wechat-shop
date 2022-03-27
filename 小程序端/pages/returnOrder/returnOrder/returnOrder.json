@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "goods": "/pages/returnOrder/goods/goods",
+    "return-order-header": "/pages/returnOrder/returnOrderHeader/returnOrderHeader",
+    "diyfooter": "/pages/footer/footer"
+  }
+}

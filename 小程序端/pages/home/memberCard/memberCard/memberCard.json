@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "member-card-type": "/pages/home/memberCard/memberCardInfo/memberCardInfo"
+  }
+}

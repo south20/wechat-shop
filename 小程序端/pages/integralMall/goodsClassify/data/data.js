@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/integralMall/goodsClassify/data/data"],{3427:function(t,a,n){"use strict";n.r(a);var e=n("d5fc"),r=n.n(e);for(var i in e)"default"!==i&&function(t){n.d(a,t,(function(){return e[t]}))}(i);a["default"]=r.a},5071:function(t,a,n){"use strict";var e,r=function(){var t=this,a=t.$createElement;t._self._c},i=[];n.d(a,"b",(function(){return r})),n.d(a,"c",(function(){return i})),n.d(a,"a",(function(){return e}))},"6da0":function(t,a,n){"use strict";n.r(a);var e=n("5071"),r=n("3427");for(var i in r)"default"!==i&&function(t){n.d(a,t,(function(){return r[t]}))}(i);n("fbe7");var c,o=n("f0c5"),u=Object(o["a"])(r["default"],e["b"],e["c"],!1,null,"38028be0",null,!1,e["a"],c);a["default"]=u.exports},a104:function(t,a,n){},d5fc:function(t,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;getApp();var e={data:function(){return{active:1,switch:!0,nav:!0}},components:{},props:{data:{type:Array},classifyData:{type:Array}},beforeMount:function(){},methods:{togoodsItem:function(t){var a=t.currentTarget.dataset.id;wx.navigateTo({url:"../../goodsItem/goodsItem?id=".concat(a)})},tab:function(t){var a=t.currentTarget.dataset.index;this.setData({active:a}),this.$emit("changData",{detail:{index:a}})},navFun:function(){this.setData({nav:!1})},hide:function(){this.setData({nav:!0})},change:function(t){var a=t.currentTarget.dataset.id,n=t.currentTarget.dataset.name;console.log(a,n),this.hide(),this.$emit("changeData",{detail:{id:a,name:n}})}}};a.default=e},fbe7:function(t,a,n){"use strict";var e=n("a104"),r=n.n(e);r.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/integralMall/goodsClassify/data/data-create-component',
+    {
+        'pages/integralMall/goodsClassify/data/data-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("6da0"))
+        })
+    },
+    [['pages/integralMall/goodsClassify/data/data-create-component']]
+]);
